@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.shoppingstore.widget.PbToolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:minWidth="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:leftButtonIcon="@drawable/icon_back_32px"
+        app:title="用户登录"
+        android:titleTextColor="@color/colorWhite"
+        app:isShowSearchView="false"
+        ></com.example.shoppingstore.widget.PbToolbar>
+
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+
+    <com.example.shoppingstore.MyView.MyEditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorWhite"
+        android:hint="  用户账号"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:enabled="true"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/icon_telphone_32"/>
+    <View
+        style="@style/line_vertical"/>
+
+    <com.example.shoppingstore.MyView.MyEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorWhite"
+        android:enabled="true"
+        android:hint="  用户密码"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableLeft="@drawable/icon_lock"
+        android:textSize="14sp" />
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/colorRed"
+        android:text="立即登录"
+        android:textColor="@color/colorWhite" />
+
+    <View
+        style="@style/line_max_vertical"
+        ></View>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/register"
+            android:textColor="@color/colorRed"
+            android:clickable="true"
+            android:text="注册账号"/>
+        <TextView
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/forgetPass"
+            android:clickable="true"
+            android:textColor="@color/colorRed"
+            android:text="忘记密码"/>
+
+    </RelativeLayout>
+</LinearLayout>

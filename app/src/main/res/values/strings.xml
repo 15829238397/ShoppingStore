@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ShoppingStore</string>
+
+    <string name="tab_home">主页</string>
+    <string name="tab_search">热点</string>
+    <string name="tab_type">分类</string>
+    <string name="shopping_bike">购物车</string>
+    <string name="tab_mine">我的</string>
+
+    <string name="title_promote">推荐</string>
+    <string name="title_scare_buying">抢购</string>
+
+    <string name="uri_promote_image">http://s10.mogucdn.com/mlcdn/c45406/170623_13l8g0jej5ah8kdh0caj85ec9i1bg_778x440.jpg_900x9999.v1c7E.70.webp</string>
+    <string name="uri_promote_image1">http://s10.mogucdn.com/mlcdn/c45406/170620_6h4lg432c1hjfjbk2la39blkl934i_778x440.jpg_900x9999.v1c7E.70.webp</string>
+    <string name="uri_promote_image2">http://s17.mogucdn.com/mlcdn/c45406/170620_693lh6ejlli66bc29f8jlg8e7l7c4_778x440.jpg_900x9999.v1c7E.70.webp</string>
+    <string name="uri_scare_buying">http://s10.mogucdn.com/mlcdn/c45406/170622_8921fcl636gihdk1j11h962h86kae_778x440.jpg_900x9999.v1c7E.70.webp</string>
+    <string name="uri_scare_buying1">http://s10.mogucdn.com/mlcdn/c45406/170621_7gbc3d35lbjgc3adhe44f379iaf52_778x440.jpg_900x9999.v1c7E.70.webp</string>
+
+    <!--商品推荐展示-->
+    <string name="goods1_title">桂花糕</string>
+    <string name="goods1_description">金顺昌桂花糕伴手礼广西桂林特产好吃的茶糕点点心零食传统桂花糕</string>
+    <string name="goods1_show">https://g-search1.alicdn.com/img/bao/uploaded/i4/imgextra/i2/1592406037795135525/TB2Dozqr98mpuFjSZFMXXaxpVXa_!!0-saturn_solar.jpg_250x250.jpg_.webp</string>
+
+    <string name="goods2_title">台湾高雄不二家</string>
+    <string name="goods2_description">【高雄不二家】真芋頭蛋糕※要命的好吃。</string>
+    <string name="goods2_show">https://g-search3.alicdn.com/img/bao/uploaded/i4/i3/TB1thv9KXXXXXaYXFXXXXXXXXXX_!!0-item_pic.jpg_310x310.jpg_.webp</string>
+
+    <string name="goods3_title">GUESS西点</string>
+    <string name="goods3_description">糯米糍 大福 甜点 10粒装大礼包雪媚娘</string>
+    <string name="goods3_show">https://img.alicdn.com/bao/uploaded/i1/1723734938/TB2MoRDngJkpuFjSszcXXXfsFXa_!!1723734938.jpg_80x80.jpg</string>
+
+    <string name="goods4_title">草西寸养生馆</string>
+    <string name="goods4_description">蔓葡花芝糕茶点切糕特产好吃的零食</string>
+    <string name="goods4_show">https://img.alicdn.com/imgextra/i4/TB1ZSiJKFXXXXbhXXXXXXXXXXXX_!!0-item_pic.jpg_170x170.jpg</string>
+
+    <string name="goods5_title">草西寸养生馆</string>
+    <string name="goods5_description">草夕寸【姜芝软糖】 生姜糖糕纯手工软糖芝麻香</string>
+    <string name="goods5_show">https://img.alicdn.com/bao/uploaded/i1/TB1KijCMXXXXXcjXVXXXXXXXXXX_!!0-item_pic.jpg_240x240.jpg</string>
+
+    <string name="goods6_title">显瘦神穿搭</string>
+    <string name="goods6_description">来蘑菇街，找到最美的自己</string>
+    <string name="goods6_show">http://s3.mogucdn.com/mlcdn/c45406/170612_59gba5ba82j20d8hde9bf39c6jh11_302x604.jpg_300x9999.v1c7E.70.webp</string>
+
+    <string name="goods7_title">夏日女神装</string>
+    <string name="goods7_description">来蘑菇街，找到最美的自己</string>
+    <string name="goods7_show">http://s2.mogucdn.com/mlcdn/c45406/170524_21316fbcjeaie1b99lldl912heg5k_302x604.jpg_300x9999.v1c7E.70.webp</string>
+
+    <string name="goods8_title">雪纺懒人装</string>
+    <string name="goods8_description">来蘑菇街，找到最美的自己</string>
+    <string name="goods8_show">http://s3.mogucdn.com/mlcdn/c45406/170612_0c6jji3ajj30jegkbh7c6ej5dlfb4_302x604.jpg_300x9999.v1c7E.70.webp</string>
+
+    <string name="goods9_title">夏日衬衫</string>
+    <string name="goods9_description">来蘑菇街，找到最美的自己</string>
+    <string name="goods9_show">http://s2.mogucdn.com/mlcdn/c45406/170515_46cd83hg8ab4k16500hk55cfbh1cl_302x604.jpg_300x9999.v1c7E.70.webp</string>
+
+    <string name="goods10_title">清凉夏装</string>
+    <string name="goods10_description">来蘑菇街，找到最美的自己</string>
+    <string name="goods10_show">http://s3.mogucdn.com/mlcdn/c45406/170607_2ghc31f0a2h1bc4fge977bf7lk5c5_302x604.jpg_300x9999.v1c7E.70.webp</string>
+    
+    <string name="show_type_defaut">默认</string>
+    <string name="show_type_price">价格</string>
+    <string name="show_type_sales">销量</string>
+</resources>

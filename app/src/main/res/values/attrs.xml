@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CnToolbar">
+
+        <attr name="rightButtonText" format="reference|string"/>
+        <attr name="leftButtonIcon" format="reference"/>
+        <attr name="rightImageButtonIcon" format="reference" />
+        <attr name="userPhotoIcon" format="reference"/>
+        <attr name="userName" format="reference|string"/>
+
+        <attr name="isShowSearchView" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumControlerView">
+
+        <attr name="value" format="reference|integer"/>
+        <attr name="minValue" format="reference|integer"/>
+        <attr name="maxValue" format="reference|integer"/>
+
+        <attr name="subButtonBackground" format="reference"/>
+        <attr name="addButtonBackground" format="reference"/>
+        <attr name="numTextBackGround" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
